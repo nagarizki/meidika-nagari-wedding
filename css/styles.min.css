@@ -82,29 +82,3 @@
     /* #FFDF00 #D4AF37 #CFB53B #E6BE8A */
     /* font-style:italic; */
 }
-
-hw99 {
-    font-size:60px;
-    color:#fff;
-    margin-bottom:40px;
-}
-
-.col-zz-2{
-    /* height: auto; */
-    position:relative;
-    min-height:1px;
-    padding-right:15px;
-    padding-left:15px;
-    padding-top:15px;
-    padding-bottom:15px;
-    float:left;
-    width:16.66666667%;
-}
-
-.toright{
-    float: right;
-}
-
-.toleft{
-    float: left;
-}
