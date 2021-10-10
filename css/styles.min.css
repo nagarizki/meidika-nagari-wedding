@@ -24,6 +24,15 @@
     }
   }
 
+  @media only screen and (max-width: 990px) {
+    .row-top{
+        padding-bottom:0px;
+    }
+    .row-bottom{
+        padding-top:0px;
+    }
+  }
+
 .judul1 {
     font-family:"Zapfino Forte LT Pro";
     font-size:60px;
