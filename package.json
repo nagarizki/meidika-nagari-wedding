@@ -1,14 +1,14 @@
 {
-  "name": "wedding-website",
+  "name": "meidika-nagari-wedding",
   "version": "1.0.1",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
-  "scripts": {
+  "script": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nagarizki/meidika-nagari-wedding.git"
+    "url": "git+https://github.com/nagarizki/meidika-nagari-wedding.git"
   },
   "keywords": [
     "wedding",
@@ -17,7 +17,7 @@
   ],
   "author": "Ram Patra",
   "license": "GPL-3.0",
-  "homepage": ".",
+  "homepage": "https://github.com/nagarizki/meidika-nagari-wedding",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
