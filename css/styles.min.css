@@ -7,19 +7,19 @@
 }
 
   @media only screen and (min-width: 994px) {
-    .row-top{
+    .rowtop{
         padding-bottom:15px
     }
-    .row-bottom{
+    .rowbottom{
         padding-top:15px
     }
   }
 
   @media only screen and (max-width: 990px) {
-    .row-top{
+    .rowtop{
         padding-bottom:0px
     }
-    .row-bottom{
+    .rowbottom{
         padding-top:0px
     }
   }
