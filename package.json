@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
-  "script": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
