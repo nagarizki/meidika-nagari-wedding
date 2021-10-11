@@ -6,14 +6,11 @@
   margin-right: auto
 }
 
-.size1 {
-    width: 10%
-  }
-
-  @font-face {
-    font-family: "Zapfino Forte LT Pro";
-    src: url(fonts/ZapfinoForteLTPro.otf)
-  }
+  /* @media only screen and (min-width: 768px) {
+    #top-2{
+      max-width: 768px;
+    }
+  } */
 
   @media only screen and (min-width: 994px) {
     .row-top{
