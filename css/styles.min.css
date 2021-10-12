@@ -3,24 +3,17 @@
 @media screen and (max-width : 500px)
 {
   .tamu{font-size: 1.2em}
+  .modal-dialog{margin-top: 20vh}
 }
 @media screen and (min-width : 501px)
 {
   .tamu{font-size: 1.4em; padding-bottom: 50px;}
+  .modal-dialog{margin-top: 5vh}
 }
 
-@media screen and (max-width : 349px)
+@media screen and (min-width : 600px)
 {
-  .modal-dialog{margin-top: 20vh}
-}
-
-@media screen and (min-width : 350px)
-{
-  .modal-dialog{margin-top: 10vh}
-}
-@media screen and (min-width : 351px)
-{
-  .modal-dialog{max-height: 722px; margin-top: 0vh}
+  .modal-dialog{margin-top: 0vh}
 }
 
 section.lokasi{background:#f8f9fd}
@@ -83,13 +76,13 @@ section.lokasi{background:#f8f9fd}
 
 .judul3 {
     font-family:"Zapfino Forte LT Pro";
-    font-size:25px;
+    font-size:2.5em;
     text-decoration: underline
 }
 
 .judul4 {
     font-family:"Zapfino Forte LT Pro";
-    font-size:40px;
+    font-size:2.5em;
     color:#DAA520;
     padding-top: 0px;
     padding-bottom: 0px
