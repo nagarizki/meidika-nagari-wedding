@@ -34,6 +34,21 @@ section.lokasi{background:#f8f9fd}
 
 /* .centered{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;text-align:center;background:#fff} */
 
+.leftcol{
+  /* float: left;
+  margin-left: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center */
+  position:relative;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: 100000;
+  border-radius: 4px
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -97,5 +112,32 @@ section.lokasi{background:#f8f9fd}
 }
 
 .rsvp-btn{
-  padding-bottom:15px
+  margin-bottom:35px
+}
+
+.down-arrow{
+  margin-bottom: 35px;
+}
+
+#floating-btn{
+  width: 40px;
+  height: 40px;
+  background: #009879;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: background 0.25s;
+  position: fixed;
+  left: 5%;
+  top: 90%;
+  transform: translate(-50%)
+}
+
+.floating-btn:active{
+  background: #007D63;
 }
